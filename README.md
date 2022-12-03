@@ -37,8 +37,8 @@ Steps to run the project:
      
 5. To post the results of a game and guesses the user made, use command:
 
-   http POST http://tuffix-vm/results/ username="username" score="score"
+   http POST http://127.0.0.1:5100/results/ username="username" score="score"
  
 6. To Retrieve the 10 users by average score, use command:
 
-   http GET http://tuffix-vm/top-scores/
+   http GET http://127.0.0.1:5100/top-scores/
